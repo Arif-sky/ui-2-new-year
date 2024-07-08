@@ -130,10 +130,10 @@ section {
 .schedule {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: linear-gradient(
-    to top,
-    rgba(255, 255, 255, 0),
-    rgb(229, 219, 219)
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
   );
 }
 
@@ -224,4 +224,90 @@ section {
 .images-items img {
   width: 400px;
   height: 350px;
+}
+
+/* Newsletter styles */
+.newsletter {
+  background-color: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+.newsletter-logo {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.newsletter h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.newsletter-description {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 212px;
+  margin-right: 212px;
+  margin-bottom: 48px;
+}
+.newsletter input {
+  border-radius: 50px 0px 0px 50px;
+  width: 350px;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+.newsletter-input-btn {
+  margin-left: 336px;
+  margin-right: 336px;
+  padding-bottom: 80px;
+}
+.newsletter-btn {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  padding: 20px;
+  color: white;
+  border: none;
+  margin-left: -2px;
+}
+
+/* footer styles */
+
+footer {
+  color: white;
+  background: rgb(24, 5, 60);
+}
+.footer-address-contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 275px 98px 106px;
+}
+.footer-address p {
+  line-height: 40px;
+}
+.footer-phone {
+  margin-bottom: 16px;
+}
+.footer-logo-container {
+  display: flex;
+  margin-left: 620px;
+  gap: 25px;
+}
+.footer-icon {
+  font-size: 35px;
+}
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+.copyright {
+  margin-left: 140px;
+}
+.Unsubscribe-container {
+  margin-right: 275px;
+}
+.copyright-container {
+  margin-top: 98px;
+}
+.Unsubscribe-container a {
+  text-decoration: none;
+  color: white;
 }
