@@ -156,6 +156,49 @@ section {
   border: none;
   border-radius: 5px;
 }
+
+/* Comming soon section start */
+
+.coming-soon-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+}
+.coming-soon-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.coming-soon-subtitle {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+.coming-soon-description {
+  width: 393px;
+  height: 128px;
+  font-size: 18px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.img-content img {
+  border: 15px solid #ff0000;
+  border-radius: 100%;
+  padding: 20px;
+}
+.right-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.right-description {
+  width: 260px;
+  height: 96px;
+  font-size: 18px;
+}
+
 /* Holiday section style start */
 
 .holiday-content {
